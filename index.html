@@ -7,11 +7,88 @@
     <title>Hyangim's Portfolio</title>
     <meta name="discription" content="Portfolio for junior software enfineer Hyangim"/>
     <meta name="author" content="Hyangim"/>
-    <link rel="icon" type = "image/png" href="image/desktop.png"/>
+    <link rel="icon" href="image/desktop.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css"/>
     <script src="main.js" defer></script>
 </head>
+
 <body>
-    
+ <!-- main -->
+    <nav id="main">
+        <div class="nav__name">
+            <i class="fa-solid fa-folder-open"></i>
+            <a href="#">Hyang-im</a>
+        </div>
+        <div class="nav__menu">
+            <ul class="nav__menu">
+                <li class="nav__menu__item">Home</li>
+                <li class="nav__menu__item">About</li>
+                <li class="nav__menu__item">Skills</li>
+                <li class="nav__menu__item">My work</li>
+                <li class="nav__menu__item">Testimonial</li>
+                <li class="nav__menu__item">Contact</li>
+            </ul>
+        </div>
+    </nav>
+<!-- home -->
+    <section id="home">
+        <img src="image/KakaoTalk_20220810_215302884.jpg" alt="Hyangim's photo" class="main__pic">
+        <h1 class="home__name">Hello, <br/> I'm Hyang-im</h1>
+        <h3 class="home__introduce">A Junior Software Engineer currently studing Web programming</h3>
+        <button class="home__contact">CONTACT ME</button>
+    </section>
+<!-- about -->
+    <section id="about">
+        <h1>About me</h1>
+        <p>I am a college student majoring in computer science.
+            When I was in high school, I was interested in programming and 
+            I am talented in handling machines. I am a junior developer who is 
+            currently learning about web programming.
+        </p>
+        <div class = "about__majors">
+            <div class="majors__icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="majors__title">
+                HTML5
+            </div>
+            <div class="majors__descreption">
+                Can be handled at an intermediate level
+            </div>
+        </div>
+        <div class="about__majors">
+            <div class="majors__icon">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="majors__title">
+                CSS
+            </div>
+            <div class="majors__descreption">
+                Can be handled at an intermediate level
+            </div>
+        </div>
+        <div class="about__majors">
+            <div class="majors__icon">
+                <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="majors__title">
+                JS
+            </div>
+            <div class="majors__descreption">
+                Can be handled at beginner level
+            </div>
+        </div>
+        <div class="about__career">
+            <img src="image/세종로고.jpg" alt="sejong" class="logo">
+            <p class="job__name">Recently attending Sejong University</p>
+            <p class="job__duration">2022 mar - until now</p>
+        </div>
+    </section>
+
+    <section id ="skills"></section>
+    <section id ="mywork"></section>
+    <section id ="testimonials"></section>
+    <section id ="contect"></section>
 </body>
 </html>
